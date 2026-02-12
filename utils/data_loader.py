@@ -4,11 +4,12 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 
-API_KEY = os.getenv("APCA_API_KEY_ID")
-API_SECRET = os.getenv("APCA_API_SECRET_KEY")
+API_KEY = os.getenv("APCA_API_KEY_ID") or st.secrets["APCA_API_KEY_ID"]
+API_SECRET = os.getenv("APCA_API_SECRET_KEY") or st.secrets["APCA_API_SECRET_KEY"]
 
 
 
