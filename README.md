@@ -6,7 +6,7 @@ An end-to-end Machine Learning powered stock prediction and backtesting system b
 
 ## 🚀 Live Demo
 
-🔗 [Live App Here](YOUR_STREAMLIT_LINK_HERE)
+🔗 [Live App Here](https://2shunxjf8r6s94mc9q9tmy.streamlit.app/)
 
 ---
 
